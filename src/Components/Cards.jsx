@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './Card'
 
 import InterviewMe from "../Logo/InterviewMe.png"
 import Figma from '../Logo/Figma.png'
@@ -7,7 +8,7 @@ import Office from '../Logo/Office.png'
 import Pirate from '../Logo/Pirate.jpg'
 import Pizza from '../Logo/Pizza.png'
 import Potter from '../Logo/Potter.png'
-import Card from './Card'
+
 
 import { AiOutlineSearch } from 'react-icons/ai'
 

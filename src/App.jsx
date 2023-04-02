@@ -1,18 +1,21 @@
 import React from 'react'
-import { Cards } from './Components/Cards'
-import Hero from './Components/Hero'
-import Navbar from './Components/Navbar'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-
+import CardDetails from './Pages/CardDetails';
+import Home from './Pages/Home';
+import NewSubmission from './Pages/NewSubmission';
 
 const App = () => {
-  return ( 
-      <>
-      <Navbar/>
-      <Hero/>
-      <Cards/>
-      </>
+  return (
+    <div>
+      <BrowserRouter>
+        <Routes>
+        <Route exact path='/' element={< Home />}/>
+        <Route exact path="/Submission-Details" element={<CardDetails/>}/>
+        <Route exact path ='/New-submission' element={<NewSubmission/>}/>
+        </Routes>
+      </BrowserRouter>
+
+    </div>
   )
 }
 

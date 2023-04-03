@@ -5,7 +5,6 @@ import InterviewMe from "../Logo/InterviewMe.png"
 import Figma from '../Logo/Figma.png'
 import Lorem from '../Logo/Lorem.png'
 import Office from '../Logo/Office.png'
-import Pirate from '../Logo/Pirate.jpg'
 import Pizza from '../Logo/Pizza.png'
 import Potter from '../Logo/Potter.png'
 

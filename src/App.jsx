@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from './Components/Navbar';
 import CardDetails from './Pages/CardDetails';
 import Home from './Pages/Home';
 import NewSubmission from './Pages/NewSubmission';
@@ -7,6 +8,7 @@ import NewSubmission from './Pages/NewSubmission';
 const App = () => {
   return (
     <div>
+      <Navbar/>
       <BrowserRouter>
         <Routes>
         <Route exact path='/' element={< Home />}/>

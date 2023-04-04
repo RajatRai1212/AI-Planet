@@ -3,13 +3,14 @@ import { AiFillGithub, AiOutlineStar, AiTwotoneCalendar } from 'react-icons/ai'
 import { BsFillPencilFill } from 'react-icons/bs'
 import { MdDelete } from 'react-icons/md'
 import {FiExternalLink } from "react-icons/fi"
+import Navbar from '../Components/Navbar'
 
 
 const CardDetails = () => {
   return (
     <>
 
-
+  <Navbar/>
       <div >
         <div className='flex justify-between bg-[#003145] text-white p-12 px-24'>
           <div className='flex flex-col gap-4'>

@@ -8,9 +8,11 @@ import NewSubmission from './Pages/NewSubmission';
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      
+
       <BrowserRouter>
         <Routes>
+          
         <Route exact path='/' element={< Home />}/>
         <Route exact path="/Submission-Details" element={<CardDetails/>}/>
         <Route exact path ='/New-submission' element={<NewSubmission/>}/>

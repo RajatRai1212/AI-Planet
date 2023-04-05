@@ -28,6 +28,7 @@ const NewSubmission = () => {
     function form_submit(event){
         event.preventDefault()
         console.log(details)
+        localStorage.setItem(details.title,JSON.stringify(details))
     }
     return (
         <>
